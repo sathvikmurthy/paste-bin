@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }))
 
 const Document = require('./models/Document')
 const mongoose = require('mongoose')
-mongoose.connect(`${process.env.QOVERY_MONGODB_Z09D563AE_DATABASE_URL}`, {
+mongoose.connect(`${process.env.QOVERY_MONGODB_Z4339CFBC_DATABASE_URL}`, {
 	useUnifiedTopology: true,
 	useNewUrlParser: true,
 })
